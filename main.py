@@ -1,7 +1,7 @@
 #Step1: import libraries and load the model
 import numpy as np
 import tensorflow as tf
-from jsonschema.benchmarks.const_vs_enum import value
+
 from tensorflow.keras.datasets import imdb
 from tensorflow.keras.preprocessing import sequence
 from tensorflow.keras.models import load_model
